@@ -4,22 +4,22 @@ public class Eagle extends Animal implements CanFly {
 
     @Override
     public String toString() {
-        return "(Aquila)";
+        return "AQUILA";
     }
 
     @Override
-    public String sound() {
-        return "Stridio";
+    public void sound() {
+        System.out.println("Stridio");
     }
 
     @Override
-    public String eat() {
-        return "Piccoli Animali";
+    public void eat() {
+        System.out.println("Piccoli Animali");
     }
 
     @Override
-    public String fly() {
-        return "Sto volando";
+    public void fly() {
+        System.out.println("Sto volando");
     }
 
 }

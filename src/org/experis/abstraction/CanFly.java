@@ -1,6 +1,6 @@
 package org.experis.abstraction;
 
 public interface CanFly {
-    public String fly();
+    public void fly();
 
 }

@@ -4,17 +4,17 @@ public class Dolphin extends Animal implements CanSwim {
 
     @Override
     public String toString() {
-        return "(Delfino)";
+        return "DELFINO";
     }
 
     @Override
-    public String sound() {
-        return "Ultrasuono";
+    public void sound() {
+        System.out.println("Glu Glu");
     }
 
     @Override
-    public String eat() {
-        return "Pesci";
+    public void eat() {
+        System.out.println("Pesci");
     }
 
     @Override

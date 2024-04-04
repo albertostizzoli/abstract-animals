@@ -4,22 +4,22 @@ public class Sparrow extends Animal implements CanFly {
 
     @Override
     public String toString() {
-        return "(Passerotto)";
+        return "PASSEROTTO";
     }
 
     @Override
-    public String sound() {
-        return "Cinguettio";
+    public void sound() {
+        System.out.println("Cip Cip");
     }
 
     @Override
-    public String eat() {
-        return "Semi";
+    public void eat() {
+        System.out.println("Semi");
     }
 
     @Override
-    public String fly() {
-        return "Sto volando";
+    public void fly() {
+        System.out.println("Sto volando");
     }
 }
 

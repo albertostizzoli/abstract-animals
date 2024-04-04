@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dee5b1c0-591c-4b5c-bfda-85864b913d0e" name="Changes" comment="create interfaces">
+    <list default="true" id="dee5b1c0-591c-4b5c-bfda-85864b913d0e" name="Changes" comment="general corrections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/abstraction/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/abstraction/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/abstraction/CanFly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/abstraction/CanFly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/abstraction/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/abstraction/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/experis/abstraction/Dolphin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/abstraction/Dolphin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/abstraction/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/abstraction/Eagle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/abstraction/Sparrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/abstraction/Sparrow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,15 +42,36 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "Errors"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.experis.abstraction.Main" />
+      <module name="abstract-animals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.experis.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712235902007</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="general corrections">
+      <option name="closed" value="true" />
+      <created>1712236555385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712236555385</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -102,6 +136,7 @@
     <MESSAGE value="create class abstract Animal" />
     <MESSAGE value="create classes for other Animals" />
     <MESSAGE value="create interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="create interfaces" />
+    <MESSAGE value="general corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="general corrections" />
   </component>
 </project>

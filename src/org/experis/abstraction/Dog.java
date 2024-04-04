@@ -4,17 +4,17 @@ public class Dog extends Animal {
 
     @Override
     public String toString() {
-        return "(Cane)";
+        return "CANE";
     }
 
     @Override
-    public String sound() {
-        return "Abbaia";
+    public void sound() {
+        System.out.println("Bau Bau");
     }
 
     @Override
-    public String eat() {
-        return "Carne";
+    public void eat() {
+        System.out.println("Croccantini");
     }
 
 }

@@ -6,7 +6,7 @@ public abstract class Animal {
         System.out.println("zzzzzzzz");
     }
 
-    public abstract String sound();
-    public abstract String eat();
+    public abstract void sound();
+    public abstract void eat();
 
 }
