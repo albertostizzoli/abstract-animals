@@ -1,26 +1,26 @@
 package org.experis.abstraction;
 
-public class Eagle extends Animal implements canFly{
+public class Eagle extends Animal implements CanFly {
 
     @Override
     public String toString() {
-        System.out.println("(Aquila)");
+        return "(Aquila)";
     }
 
     @Override
-    public String sound(){
-        System.out.println("Stridio");
+    public String sound() {
+        return "Stridio";
     }
 
     @Override
-    public String eat(){
-        System.out.println("Piccoli Animali");
+    public String eat() {
+        return "Piccoli Animali";
     }
 
     @Override
-    public String fly(){
-        System.out.println("Sto volando");
+    public String fly() {
+        return "Sto volando";
     }
-
 
 }
+

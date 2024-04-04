@@ -1,25 +1,26 @@
 package org.experis.abstraction;
 
-public class Dolphin extends Animal implements canSwim{
+public class Dolphin extends Animal implements CanSwim {
 
     @Override
-    public String toString(){
-        System.out.println("(Delfino");
+    public String toString() {
+        return "(Delfino)";
     }
 
     @Override
-    public String sound(){
-        System.out.println("Ultrasuono");
+    public String sound() {
+        return "Ultrasuono";
     }
 
     @Override
-    public String eat(){
-        System.out.println("Pesci");
+    public String eat() {
+        return "Pesci";
     }
 
     @Override
-    public void swim(){
+    public void swim() {
         System.out.println("Sto nuotando");
     }
 
-  }
+}
+

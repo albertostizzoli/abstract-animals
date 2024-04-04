@@ -1,24 +1,25 @@
 package org.experis.abstraction;
 
-public class Sparrow extends Animal implements canFly{
+public class Sparrow extends Animal implements CanFly {
 
     @Override
-    public String toString(){
-        System.out.println("(Passerotto)");
+    public String toString() {
+        return "(Passerotto)";
     }
 
     @Override
-    public String sound(){
-        System.out.println("Cinguettio");
+    public String sound() {
+        return "Cinguettio";
     }
 
     @Override
-    public String eat(){
-        System.out.println("Semi");
+    public String eat() {
+        return "Semi";
     }
 
     @Override
-    public String fly(){
-        System.out.println("Sto volando");
+    public String fly() {
+        return "Sto volando";
     }
 }
+

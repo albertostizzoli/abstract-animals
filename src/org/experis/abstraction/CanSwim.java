@@ -1,5 +1,5 @@
 package org.experis.abstraction;
 
-public interface canSwim {
+public interface CanSwim {
     public void swim();
 }
