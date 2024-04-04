@@ -2,7 +2,7 @@
 
 ### Step 1 : classi astratte
 Dobbiamo realizzare un programma che rappresenti il regno animale.
-Creiamo quindi una classe astratta Animale e delle classi che la estendono : Cane, Passerotto, Aquila, Delfino
+Creiamo quindi una classe astratta Animale e delle classi che la estendono : Cane, Passerotto, Aquila, Delfino.
 Vogliamo che gli animali abbiano i seguenti metodi
 - void dormi() (mostra a video “Zzz”)
 - void verso() (mostra a video il verso fatto dall’animale specifico)
