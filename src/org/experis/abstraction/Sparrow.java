@@ -1,6 +1,6 @@
 package org.experis.abstraction;
 
-public class Sparrow extends Animal{
+public class Sparrow extends Animal implements canFly{
 
     @Override
     public String toString(){
@@ -15,5 +15,10 @@ public class Sparrow extends Animal{
     @Override
     public String eat(){
         System.out.println("Semi");
+    }
+
+    @Override
+    public String fly(){
+        System.out.println("Sto volando");
     }
 }

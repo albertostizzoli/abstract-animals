@@ -1,6 +1,6 @@
 package org.experis.abstraction;
 
-public class Dolphin extends Animal{
+public class Dolphin extends Animal implements canSwim{
 
     @Override
     public String toString(){
@@ -15,6 +15,11 @@ public class Dolphin extends Animal{
     @Override
     public String eat(){
         System.out.println("Pesci");
+    }
+
+    @Override
+    public void swim(){
+        System.out.println("Sto nuotando");
     }
 
   }
