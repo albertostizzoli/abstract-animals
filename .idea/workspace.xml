@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dee5b1c0-591c-4b5c-bfda-85864b913d0e" name="Changes" comment="scaffolding and file README">
+    <list default="true" id="dee5b1c0-591c-4b5c-bfda-85864b913d0e" name="Changes" comment="create class abstract Animal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/experis/abstraction/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/abstraction/Animal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +68,20 @@
       <option name="project" value="LOCAL" />
       <updated>1712232393282</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create class abstract Animal">
+      <option name="closed" value="true" />
+      <created>1712233989993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712233989993</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="scaffolding and file README" />
-    <option name="LAST_COMMIT_MESSAGE" value="scaffolding and file README" />
+    <MESSAGE value="create class abstract Animal" />
+    <option name="LAST_COMMIT_MESSAGE" value="create class abstract Animal" />
   </component>
 </project>
